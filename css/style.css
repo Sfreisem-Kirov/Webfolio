@@ -1,0 +1,17 @@
+#pageTitle{
+    height:16vh;
+}
+.text{
+    text-align:center;
+}
+h1{
+    font-size:8vh;
+}
+.tile{
+    height: 37vw;
+    width: 49.46vw;
+    float:left;
+}
+body{
+    margin:0px;
+}
