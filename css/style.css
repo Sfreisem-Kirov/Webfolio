@@ -1,11 +1,80 @@
-#pageTitle{
+.subitem{
+    height:8vh;
+    border-style: double;
+    width:20vw;
+    margin:50px 48px;
+    
+}
+ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+li {
+    float: left;
+}
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+
+.w3-container,.w3-panel{padding:0.01em 16px}.w3-panel{margin-top:16px;margin-bottom:16px}
+.w3-content{max-width:980px;margin:auto}.w3-rest{overflow:hidden}
+.w3-row-padding,.w3-row-padding>.w3-half,.w3-row-padding>.w3-third,.w3-row-padding>.w3-twothird,.w3-row-padding>.w3-threequarter,.w3-row-padding>.w3-quarter,.w3-row-padding>.w3-col{padding:0 8px}
+.w3-section,.w3-code{margin-top:16px!important;margin-bottom:16px!important}
+.w3-col,.w3-half,.w3-third,.w3-twothird,.w3-threequarter,.w3-quarter{float:left;width:100%}
+.w3-col.s1{width:8.33333%}.w3-col.s2{width:16.66666%}.w3-col.s3{width:24.99999%}.w3-col.s4{width:33.33333%}
+.w3-col.s5{width:41.66666%}.w3-col.s6{width:49.99999%}.w3-col.s7{width:58.33333%}.w3-col.s8{width:66.66666%}
+.w3-col.s9{width:74.99999%}.w3-col.s10{width:83.33333%}.w3-col.s11{width:91.66666%}.w3-col.s12{width:99.99999%}
+@media (min-width:601px){.w3-col.m1{width:8.33333%}.w3-col.m2{width:16.66666%}.w3-col.m3,.w3-quarter{width:24.99999%}.w3-col.m4,.w3-third{width:33.33333%}
+.w3-col.m5{width:41.66666%}.w3-col.m6,.w3-half{width:49.99999%}.w3-col.m7{width:58.33333%}.w3-col.m8,.w3-twothird{width:66.66666%}
+.w3-col.m9,.w3-threequarter{width:74.99999%}.w3-col.m10{width:83.33333%}.w3-col.m11{width:91.66666%}.w3-col.m12{width:99.99999%}}
+@media (min-width:993px){.w3-col.l1{width:8.33333%}.w3-col.l2{width:16.66666%}.w3-col.l3{width:24.99999%}.w3-col.l4{width:33.33333%}
+.w3-col.l5{width:41.66666%}.w3-col.l6{width:49.99999%}.w3-col.l7{width:58.33333%}.w3-col.l8{width:66.66666%}
+.w3-col.l9{width:74.99999%}.w3-col.l10{width:83.33333%}.w3-col.l11{width:91.66666%}.w3-col.l12{width:99.99999%}}
+.w3-opacity,.w3-hover-opacity:hover{opacity:0.60}.w3-opacity-off,.w3-hover-opacity-off:hover{opacity:1}
+
+.pageTitle{
     height:16vh;
+    border-style: double;
+    width:40vw;
+    margin:20px 40px;
+    
+}
+.column {
+    float: left;
+    width: 50%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align:center;
+    height: auto;
+}
+.foot{
+    
+    border-top:solid;
+    float: left;
+    width: 100%;
+}
+.foottext{
+    text-shadow: none;
+    color:black;
+    text-align:center;
+    margin:10px;
+}
+img{border-style:none}
+.mySlides {display:none}
+.demo {cursor:pointer}
+.top{
+    
+    border-bottom:3px solid ;
 }
 .text{
     text-align:center;
+    color:black;
+    text-shadow: none;
 }
 h1{
     font-size:8vh;
+    margin:25px;
 }
 .tile{
     height: 37vw;
@@ -14,4 +83,80 @@ h1{
 }
 body{
     margin:0px;
+}
+.container{
+    display:grid;
+    grid-template-columns:auto auto;
+}
+#swiss{
+    background: url(../images/swiss.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 610px;
+    height: 600px;
+    
+    vertical-align: middle;
+}
+#flower2{
+    background: url(../images/flower2.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 1000px;
+    height:1000px;
+    
+    vertical-align: middle;
+}
+.pht{
+    margin:50px auto;
+    display:block;  
+
+}
+#dog{
+    background: url(../images/dog.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 1000px;
+    height:1000;
+    
+    vertical-align: middle;
+}
+#car{
+    background: url(../images/myCar.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 600px;
+    height:600px;
+    
+    vertical-align: middle;
+}
+.centered1 {
+    padding-top:200px;
+    margin:auto 0;  
+    line-height: 8vh;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    text-decoration-color: White;
+
+}
+.centered2 {
+    padding-top:200px;
+    line-height: 8vh;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    text-decoration-color: White;
+
+}
+h1{
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    text-align: center;
+}
+h2{
+    
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    text-align: center;
+    margin: 16px;
+}
+a{
+    text-decoration: none;  
+    color: White;
+    
+    text-shadow: 0 0 5px black;
 }
